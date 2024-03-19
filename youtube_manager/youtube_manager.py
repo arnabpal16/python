@@ -11,7 +11,7 @@ def load_data():
         
 def save_data_helper(videos):
     with open ("youyube.txt", "w") as file:
-        json.dump(videos, file) #it will save incoming video to the text file 
+        json.dump(videos, file) #it will save incoming video json  to the text file 
 
 def list_all_videos(videos):
     for index, video in enumerate(videos,start=1):
